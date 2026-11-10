@@ -18,8 +18,3 @@ model has to generalize to new signers.
   depend on where the signer stands or how large they appear.
 - Trained sequence models with CTC loss: a BiLSTM baseline and a Conformer encoder.
 - Evaluated with word error rate (WER) on unseen signers.
-
-## How to run
-
-Open [isharah_pose_cslr.ipynb](isharah_pose_cslr.ipynb) in Google Colab with a T4 GPU and run all
-cells. The dataset is not included in this repository; set the data folder in the `CONFIG` cell.
