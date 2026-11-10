@@ -6,7 +6,7 @@ Continuous sign language recognition (CSLR): given a video of a person signing a
 output the sequence of glosses (sign words) they signed. Here the input is not raw video but 2D
 keypoints (body, hands, face, lips) extracted from each frame.
 
-The dataset is Isharah-1000 (Saudi Sign Language), using the
+The dataset is [Isharah-1000](https://snalyami.github.io/Isharah_CSLR/) (Saudi Sign Language), using the
 **signer-independent** split: the people in the dev and test sets never appear in training, so the
 model has to generalize to new signers.
 
