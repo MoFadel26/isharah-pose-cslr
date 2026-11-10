@@ -12,17 +12,12 @@ model has to generalize to new signers.
 
 ## Approach
 
-- Inspect the data first and check every assumption (labels, IDs, signers, keypoint layout,
+- Inspected the data first and checked every assumption (labels, IDs, signers, keypoint layout,
   vocabulary overlap) before building the model.
-- Normalize each frame relative to the body (shoulder-centred and scaled) so the model does not
+- Normalized each frame relative to the body (shoulder-centred and scaled) so the model does not
   depend on where the signer stands or how large they appear.
-- Train sequence models with CTC loss: a BiLSTM baseline and a Conformer encoder.
-- Evaluate with word error rate (WER) on unseen signers.
-
-## Status
-
-The notebook currently contains the setup and data inspection part. The training and evaluation
-part is in progress.
+- Trained sequence models with CTC loss: a BiLSTM baseline and a Conformer encoder.
+- Evaluated with word error rate (WER) on unseen signers.
 
 ## How to run
 
